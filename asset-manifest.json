@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SQL-Editor/static/css/main.6cfb3bec.css",
+    "main.js": "/SQL-Editor/static/js/main.3f342e7e.js",
+    "static/js/787.27005e37.chunk.js": "/SQL-Editor/static/js/787.27005e37.chunk.js",
+    "index.html": "/SQL-Editor/index.html",
+    "main.6cfb3bec.css.map": "/SQL-Editor/static/css/main.6cfb3bec.css.map",
+    "main.3f342e7e.js.map": "/SQL-Editor/static/js/main.3f342e7e.js.map",
+    "787.27005e37.chunk.js.map": "/SQL-Editor/static/js/787.27005e37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cfb3bec.css",
+    "static/js/main.3f342e7e.js"
+  ]
+}
