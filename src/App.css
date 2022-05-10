@@ -192,3 +192,9 @@ div .query PlayCircleFilledOutlinedIcon .img a span .text{
 Table{
   background-color:#6DD5FA;
 }
+@media screen and(max-width:1366px){
+  .box2{
+    margin-left:495px;
+  }
+    
+}
