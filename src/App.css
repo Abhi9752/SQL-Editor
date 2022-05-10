@@ -55,7 +55,7 @@ main{
   grid-template-columns:100%;
   background-image: -webkit-linear-gradient(#2980B9,#6DD5FA);
   margin-top: 90px;
-  margin-left: 410px;
+  margin-left: 50%;
   /* grid-row-gap: 5px; */
   border-radius: 5px;
 
@@ -192,9 +192,4 @@ div .query PlayCircleFilledOutlinedIcon .img a span .text{
 Table{
   background-color:#6DD5FA;
 }
-@media screen and(max-width:1366px){
-  .box2{
-    margin-left:495px;
-  }
-    
-}
+
