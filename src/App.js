@@ -84,27 +84,27 @@ function App() {
     <div className="query"><span className="text1"> Choose a query from the list below:-</span>
     </div>
     <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/> 
-        <a href="#" onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders;")}}> 
+        <a href="#box" onClick={()=>{setInitial("Select * from orders;")}}> 
                 <span className="text">Select * from orders;</span>
         </a>
     </div>
-    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/> <a href="#"  onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders where freight > 40;")}}> <span className="text">Select * from orders where freight &gt 40;</span></a>
+    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/> <a href="#box"  onClick={()=>{setInitial("Select * from orders where freight > 40;")}}> <span className="text">Select * from orders where freight &gt 40;</span></a>
         
     </div>
-    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/> <a href="#"  onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders where employeeId = 3;")}}> <span className="text">Select * from orders where employeeId = 3;</span></a>
+    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/> <a href="#box"  onClick={()=>{setInitial("Select * from orders where employeeId = 3;")}}> <span className="text">Select * from orders where employeeId = 3;</span></a>
         
     </div>
-    <div className="query">  <PlayCircleFilledOutlinedIcon className='img'/><a href="#"  onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders where orderedDate = '1996-07-10';")}}> <span className="text">Select * from orders where orderedDate = '1996-07-10';</span></a>
+    <div className="query">  <PlayCircleFilledOutlinedIcon className='img'/><a href="#box"  onClick={()=>{setInitial("Select * from orders where orderedDate = '1996-07-10';")}}> <span className="text">Select * from orders where orderedDate = '1996-07-10';</span></a>
         
     </div>
-    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/><a href="#"  onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders where shippedDate = '1996-07-23';")}}><span className="text">Select * from orders where shippedDate = '1996-07-23';</span></a>
+    <div className="query"> <PlayCircleFilledOutlinedIcon className='img'/><a href="#box"  onClick={()=>{setInitial("Select * from orders where shippedDate = '1996-07-23';")}}><span className="text">Select * from orders where shippedDate = '1996-07-23';</span></a>
         
     </div>
-    <div className="query">  <PlayCircleFilledOutlinedIcon className='img'/><a href="#"  onClick={(e)=>{e.preventDefault(); setInitial("Select * from orders where orderID = 10248;")}}><span className="text">Select * from orders where orderID = 10248;</span></a>
+    <div className="query">  <PlayCircleFilledOutlinedIcon className='img'/><a href="#box"  onClick={()=>{setInitial("Select * from orders where orderID = 10248;")}}><span className="text">Select * from orders where orderID = 10248;</span></a>
         
     </div>
 </div>
-        <div className="box3">
+        <div id="box" className="box3">
             <div className="head"><h2>Execute SQL Query</h2></div>
             <div className="textfield"><input name="Query_area" id="Query_area" type="text" placeholder='Select Query from the list' value={initial}></input></div>
             <div className="run"> <a href="#" className='btn' onClick={clickHandler}> Run </a> </div>
