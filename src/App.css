@@ -197,7 +197,7 @@ Table{
 }
 .query:hover{
   transform: translateY(-10px);
-  box-shadow: 0px 10px 40px white);
+  box-shadow: 0px 10px 40px white;
 }
 
 @media only screen and (max-width: 800px) {
