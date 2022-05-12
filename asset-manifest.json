@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SQL-Editor/static/css/main.5ca9ae4d.css",
+    "main.css": "/SQL-Editor/static/css/main.2fa39fd5.css",
     "main.js": "/SQL-Editor/static/js/main.aaff6876.js",
     "static/js/787.27005e37.chunk.js": "/SQL-Editor/static/js/787.27005e37.chunk.js",
     "index.html": "/SQL-Editor/index.html",
-    "main.5ca9ae4d.css.map": "/SQL-Editor/static/css/main.5ca9ae4d.css.map",
+    "main.2fa39fd5.css.map": "/SQL-Editor/static/css/main.2fa39fd5.css.map",
     "main.aaff6876.js.map": "/SQL-Editor/static/js/main.aaff6876.js.map",
     "787.27005e37.chunk.js.map": "/SQL-Editor/static/js/787.27005e37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ca9ae4d.css",
+    "static/css/main.2fa39fd5.css",
     "static/js/main.aaff6876.js"
   ]
 }
